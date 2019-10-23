@@ -1,5 +1,5 @@
-*.css linguist-language=vue
-*.less linguist-language=vue
-*.js linguist-language=vue
-*.html linguist-language=vue
-*.sql linguist-language=vue
+*.css linguist-language=java
+*.less linguist-language=java
+*.js linguist-language=java
+*.html linguist-language=java
+*.sql linguist-language=java
