@@ -1,4 +1,4 @@
-## ✌️📔 一个基于 Vue + SpringBoot 并采用前后端分离开发模式实现的多用户博客管理平台
+## ✌️📔 一个采用前后端分离开发模式实现的多用户博客管理平台
  
 > 项目在线演示地址 : http://vblog.itboyhub.com/
 
@@ -82,7 +82,7 @@
 
 > 注意 : 如果要做二次开发,请继续看第五、六步哟 !
 
-6. *进入`vueblog`( 前端管理模块 )目录中,在命令行依次执行如下命令 :*  
+6. *进入`vueblog`( 前端管理模块 )目录中，在命令行依次执行如下命令 :*  
 ```
 # 安装依赖
 npm install
@@ -91,16 +91,16 @@ npm install
 npm run dev
 ```  
 
-> 由于我在`vueblog`( 前端管理模块 )项目中已经配置了端口转发,既将数据转发到`SpringBoot`上,因此项目启动之后,在浏览器中输入`http://localhost:8080`就可以访问我们的前端项目啦~ 所有的请求将通过端口转发将数据传输到`SpringBoot`中( 注意 : 这个过程要保持`SpringBoot`项目,既`blogserver`后台管理模块是处于运行状态的 ! )
+> 由于我在`vueblog`( 前端管理模块 )项目中已经配置了端口转发，既将数据转发到`SpringBoot`上，因此项目启动之后，在浏览器中输入`http://localhost:8080`就可以访问我们的前端项目啦~ 所有的请求将通过端口转发将数据传输到`SpringBoot`中( 注意 : 这个过程要保持`SpringBoot`项目,既`blogserver`后台管理模块是处于运行状态的 ! )
 
-7. *最后可以使用`WebStorm`等前端开发工具打开`vueblog`项目( 前端管理模块 )继续开发,待开发完成后,当项目要上线时,依然进入到`vueblog`目录,然后执行如下命令 :* 
+7. *最后可以使用`WebStorm`等前端开发工具打开`vueblog`项目( 前端管理模块 )继续开发，待开发完成后，当项目要上线时，依然进入到`vueblog`目录，然后执行如下命令 :* 
 ```
 npm run build
 ```
 
-*该命令执行成功之后,`vueblog`目录下将生成一个名为`dist`的文件夹,然后将该文件夹中的`static`文件夹及`index.html`文件拷贝到`SpringBoot`项目中的`resources/static/`目录下,然后就可以像第 `4` 步那样通过启动后端管理模块来访问该项目咯~*
+*该命令执行成功之后，`vueblog`目录下将生成一个名为`dist`的文件夹，然后将该文件夹中的`static`文件夹及`index.html`文件拷贝到`SpringBoot`项目中的`resources/static/`目录下，然后就可以像第 `4` 步那样通过启动后端管理模块来访问该项目咯~*
 
-> 步骤 `6` 中需要大家对`NodeJS`、`NPM`等有一定的使用经验,不熟悉的小伙伴可以先自行学习下 : [Vue官方教程](https://cn.vuejs.org/v2/guide/)  
+> 步骤 `6` 中需要大家对`NodeJS`、`NPM`等有一定的使用经验，不熟悉的小伙伴可以先自行学习下 : [Vue官方教程](https://cn.vuejs.org/v2/guide/)  
 
 
 
